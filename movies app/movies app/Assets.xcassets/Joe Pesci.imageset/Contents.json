@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "544e4763cb27b72f6deeccfa4a0c5bd0c2-27-joe-pesci.rvertical.w1200.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
