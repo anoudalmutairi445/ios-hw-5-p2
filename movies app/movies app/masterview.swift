@@ -7,9 +7,26 @@
 //
 
 import UIKit
-
+import AVFoundation
 
 class masterview: UITableViewController {
+    
+    var bombSoundEffect: AVAudioPlayer?
+    func playmusic(musicName: String){
+        
+         let path = Bundle.main.path(forResource: musicName, ofType:nil)!
+    
+        let url = URL(fileURLWithPath: path)
+
+        do {
+            bombSoundEffect = try AVAudioPlayer(contentsOf: url)
+            bombSoundEffect?.play()
+        } catch {
+            // couldn't load file :(
+        }
+
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,20 +51,25 @@ class masterview: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
 
         // Configure the cell...
-        cell.textLabel!.text = MoviesData[indexPath.row].movieName
+        let movie = MoviesData[indexPath.row]
+        cell.movieImage.image = UIImage(named: MoviesData[indexPath.row].image())
+        cell.movieName.text = MoviesData[indexPath.row].movieName
         return cell
     }
     
     
-     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200
+    }
     
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "next", sender: indexPath.row)
         print(indexPath.row)
+   
         
         
     }
@@ -96,9 +118,12 @@ class masterview: UITableViewController {
             // Pass the selected object to the new view controller.
             
             if segue.identifier == "next"{
+            let movie = MoviesData[sender as! Int]
+                playmusic(musicName: movie.music())
                 let index = sender as! Int
                 let vc = segue.destination as! ViewController
                 vc.movieData = MoviesData[index]
+                
             }
         }
         

@@ -19,6 +19,12 @@
 		523DC83A24B1C1ED007C8D46 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523DC83924B1C1EC007C8D46 /* MovieDetails.swift */; };
 		523DC83D24B33E7C007C8D46 /* Charlie and the Chocolate Factory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523DC83C24B33E7C007C8D46 /* Charlie and the Chocolate Factory.mp3 */; };
 		523DC84424B34172007C8D46 /* Annabelle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523DC84324B34172007C8D46 /* Annabelle.mp3 */; };
+		529AC81724B71F480078C08C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529AC81624B71F480078C08C /* TableViewCell.swift */; };
+		529AC81D24B79BE40078C08C /* High School Musical.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529AC81C24B79BE40078C08C /* High School Musical.mp3 */; };
+		529AC81F24B79EA60078C08C /* Mowgli.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529AC81E24B79EA60078C08C /* Mowgli.mp3 */; };
+		529AC82124B79EB70078C08C /* How to train your dragon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529AC82024B79EB70078C08C /* How to train your dragon.mp3 */; };
+		529AC82324B79EBD0078C08C /* Home Alone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529AC82224B79EBD0078C08C /* Home Alone.mp3 */; };
+		529AC82524B79EC90078C08C /* Matilda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 529AC82424B79EC80078C08C /* Matilda.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +62,13 @@
 		523DC83724B1C14A007C8D46 /* masterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masterview.swift; sourceTree = "<group>"; };
 		523DC83924B1C1EC007C8D46 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 		523DC83C24B33E7C007C8D46 /* Charlie and the Chocolate Factory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Charlie and the Chocolate Factory.mp3"; sourceTree = "<group>"; };
-		523DC83E24B33EA8007C8D46 /* Home Alone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Home Alone.mp3"; path = "../../../../../Music/Music/Media/Music/Unknown Artist/Somewhere in my memory - John Williams (Home alone soundtrack)/Home Alone.mp3"; sourceTree = "<group>"; };
-		523DC83F24B33EA8007C8D46 /* How to train your dragon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "How to train your dragon.mp3"; path = "../../../../../Music/Music/Media/Music/Unknown Artist/how to train your dragon - Flying theme/How to train your dragon.mp3"; sourceTree = "<group>"; };
-		523DC84024B33EA8007C8D46 /* Mowgli.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mowgli.mp3; path = "../../../../../Music/Music/Media/Music/Unknown Artist/Mowgli/Mowgli.mp3"; sourceTree = "<group>"; };
-		523DC84124B33EA8007C8D46 /* Matilda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Matilda.mp3; path = "../../../../../Music/Music/Media/Music/Unknown Artist/Rusted Root - Send Me On My Way (Official Video)/Matilda.mp3"; sourceTree = "<group>"; };
-		523DC84224B33EBD007C8D46 /* High School Musical.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "High School Musical.mp3"; path = "../../../../../Music/Music/Media/Music/Unknown Artist/High School Musical Cast - We're All In This Together (From _High School Musical_)/High School Musical.mp3"; sourceTree = "<group>"; };
 		523DC84324B34172007C8D46 /* Annabelle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Annabelle.mp3; sourceTree = "<group>"; };
+		529AC81624B71F480078C08C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		529AC81C24B79BE40078C08C /* High School Musical.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "High School Musical.mp3"; sourceTree = "<group>"; };
+		529AC81E24B79EA60078C08C /* Mowgli.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mowgli.mp3; sourceTree = "<group>"; };
+		529AC82024B79EB70078C08C /* How to train your dragon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "How to train your dragon.mp3"; sourceTree = "<group>"; };
+		529AC82224B79EBD0078C08C /* Home Alone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Home Alone.mp3"; sourceTree = "<group>"; };
+		529AC82424B79EC80078C08C /* Matilda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Matilda.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +129,7 @@
 				523DC81524B1270F007C8D46 /* Info.plist */,
 				523DC83724B1C14A007C8D46 /* masterview.swift */,
 				523DC83924B1C1EC007C8D46 /* MovieDetails.swift */,
+				529AC81624B71F480078C08C /* TableViewCell.swift */,
 			);
 			path = "movies app";
 			sourceTree = "<group>";
@@ -147,13 +155,13 @@
 		523DC83B24B33E3B007C8D46 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				523DC83E24B33EA8007C8D46 /* Home Alone.mp3 */,
-				523DC83F24B33EA8007C8D46 /* How to train your dragon.mp3 */,
-				523DC84224B33EBD007C8D46 /* High School Musical.mp3 */,
+				529AC81C24B79BE40078C08C /* High School Musical.mp3 */,
+				529AC82224B79EBD0078C08C /* Home Alone.mp3 */,
 				523DC84324B34172007C8D46 /* Annabelle.mp3 */,
-				523DC84024B33EA8007C8D46 /* Mowgli.mp3 */,
-				523DC84124B33EA8007C8D46 /* Matilda.mp3 */,
+				529AC82424B79EC80078C08C /* Matilda.mp3 */,
+				529AC82024B79EB70078C08C /* How to train your dragon.mp3 */,
 				523DC83C24B33E7C007C8D46 /* Charlie and the Chocolate Factory.mp3 */,
+				529AC81E24B79EA60078C08C /* Mowgli.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -265,8 +273,13 @@
 				523DC83D24B33E7C007C8D46 /* Charlie and the Chocolate Factory.mp3 in Resources */,
 				523DC84424B34172007C8D46 /* Annabelle.mp3 in Resources */,
 				523DC81424B1270F007C8D46 /* LaunchScreen.storyboard in Resources */,
+				529AC82124B79EB70078C08C /* How to train your dragon.mp3 in Resources */,
 				523DC81124B1270F007C8D46 /* Assets.xcassets in Resources */,
+				529AC82524B79EC90078C08C /* Matilda.mp3 in Resources */,
 				523DC80F24B12708007C8D46 /* Main.storyboard in Resources */,
+				529AC81D24B79BE40078C08C /* High School Musical.mp3 in Resources */,
+				529AC82324B79EBD0078C08C /* Home Alone.mp3 in Resources */,
+				529AC81F24B79EA60078C08C /* Mowgli.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +307,7 @@
 				523DC80C24B12708007C8D46 /* ViewController.swift in Sources */,
 				523DC80824B12708007C8D46 /* AppDelegate.swift in Sources */,
 				523DC83824B1C14A007C8D46 /* masterview.swift in Sources */,
+				529AC81724B71F480078C08C /* TableViewCell.swift in Sources */,
 				523DC83A24B1C1ED007C8D46 /* MovieDetails.swift in Sources */,
 				523DC80A24B12708007C8D46 /* SceneDelegate.swift in Sources */,
 			);
